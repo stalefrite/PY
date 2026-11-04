@@ -1,5 +1,7 @@
 import os, sys, re
 
+# cheap ripoff of gnu strings utility
+
 def main():
     if len(sys.argv) != 3:
         sys.exit('\r\nUsage: <file-path> <output.txt>\r\n')
